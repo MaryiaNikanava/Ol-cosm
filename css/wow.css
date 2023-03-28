@@ -15,15 +15,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes bounce {
@@ -70,21 +70,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @-webkit-keyframes flash {
   0%, 50%, 100% {
-    opacity: 1;
+    opacity: 2;
   }
 
   25%, 75% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
 @keyframes flash {
   0%, 50%, 100% {
-    opacity: 1;
+    opacity: 2;
   }
 
   25%, 75% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -182,35 +182,35 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @-webkit-keyframes swing {
   20% {
     -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
+    transform: rotate(25deg);
   }
 
   40% {
     -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
   }
 
   60% {
     -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
+    transform: rotate(10deg);
   }
 
   80% {
     -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+    transform: rotate(-10deg);
   }
 
   100% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+    transform: rotate(5deg);
   }
 }
 
 @keyframes swing {
   20% {
-    -webkit-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    transform: rotate(15deg);
+    -webkit-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    transform: rotate(25deg);
   }
 
   40% {
